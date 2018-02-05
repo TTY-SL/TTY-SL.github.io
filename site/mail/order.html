@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Письмо от Деда Мороза с сургутной печатью</title>
+  <meta http-equiv="X-UA-Compatible" content="IE = edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="keywords" content="письмо деду морозу, 2018">
+  <link rel="stylesheet" type="text/css" href="./css/main.min.css">
+</head>
+
+<body>
+  <section class="order-menu">
+    <div class="container">
+      <div class="order-nav">
+        <div class="order-nav__container">
+          <div class="messege-error">Пройдите шаги еще раз и заполните нужны поля</div>
+          <ul class="tabs-list">
+            <li class="first__element tab-element active" show-tab="first">Состав подарка</li>
+            <li class="second__element tab-element" show-tab="second">Кого поздравляем</li>
+            <li class="three__element tab-element" show-tab="three">Ваши данные</li>
+            <li class="fourth__element tab-element" show-tab="fourth">Доставка</li>
+          </ul>
+          <div class="load-stripe">
+            <div class="load-stripe__loding"></div>
+            <div class="load-stripe__snowflake">
+              <svg class="icon icon-snowflake ">
+                <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#snowflake"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bar__phone">
+          <svg class="icon icon-right-button order-buttom__header">
+            <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#right-button"></use>
+          </svg>
+          <div class="nav-bar__form">
+            <input class="form-name" type="text" placeholder="Ваше имя">
+            <input class="form-phone" type="text" placeholder="Телефон" id="phone-call">
+            <div class="nav-form__submit">
+              <a class="btn-submit" href="javascript:void(0)">Отправить</a>
+            </div>
+          </div>
+          <a class="header-phone" href="tel:+74951251069">МСК: +7(495) 125-10-69</a>
+          <a class="header-phone" href="tel:+79119242163">СПб: +7(911) 924-21-63</a>
+        </div>
+        <a class="btn-main" href="/">
+          <svg class="icon icon-main ">
+            <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#main"></use>
+          </svg>
+        </a>
+      </div>
+      <!-- start much-thank-->
+      <section class="much-thank">
+        <div class="much-thank__container">
+          <div class="much-thank__text">Спасибо. Мы свяжемся с вами в ближайшее время.</div>
+          <div class="much-thank__block">
+            <a class="btn-submit__close" href="javascript:void(0);">Закрыть</a>
+          </div>
+        </div>
+      </section>
+      <!-- end much-thank-->
+      <div class="container-tabs">
+        <div class="tabs-content first active-container">
+          <div class="order-lists">
+            <div class="order-lists__title">
+              <h5>Состав заказа</h5>
+            </div>
+            <div class="order-lists__element">
+              <label class="checkbox disabled-text">Любовь и доброта - БЕСПЛАТНО
+                <input class="val__input" type="checkbox" checked disabled="disabled" data-val="0" data-name="Любовь и доброта - БЕСПЛАТНО ">
+                <span class="checkbox-custom"></span>
+              </label>
+              <div class="price-block">Бесплатно</div>
+              <div class="order-lists__element-img">
+                <img src="./img/order/love.jpg" alt="">
+              </div>
+            </div>
+            <div class="order-lists__element">
+              <label class="checkbox disabled-text">Письмо от Деда мороза + сургучная печать + фирменная упаковка
+                <input class="val__input" type="checkbox" checked disabled="disabled" data-val="590" data-name="Письмо от Деда мороза + сургучная печать + фирменная упаковка ">
+                <span class="checkbox-custom"></span>
+              </label>
+              <div class="price-block">590 руб.</div>
+              <div class="order-lists__element-img">
+                <img src="./img/order/leter.png" alt="">
+              </div>
+            </div>
+            <div class="order-lists__element">
+              <label class="checkbox">Именной шар на ёлку
+                <input class="val__input" type="checkbox" data-val="250" data-name="Именной шар на ёлку">
+                <span class="checkbox-custom"></span>
+              </label>
+              <div class="price-block">250руб.</div>
+              <div class="order-lists__element-img">
+                <img src="./img/order/toy.png" alt="">
+              </div>
+            </div>
+            <div class="order-lists__element">
+              <label class="checkbox">Магнитик на холодильник
+                <input class="val__input" type="checkbox" data-val="99" data-name="Магнитик на холодильник ">
+                <span class="checkbox-custom"></span>
+              </label>
+              <div class="price-block">99руб.</div>
+              <div class="order-lists__element-img">
+                <img src="./img/order/tree.png" alt="">
+              </div>
+            </div>
+            <div class="order-lists__element">
+              <label class="checkbox">Новогодняя открытка
+                <input class="val__input" type="checkbox" data-val="90" data-name="Новогодняя открытка ">
+                <span class="checkbox-custom"></span>
+              </label>
+              <div class="price-block">90руб.</div>
+              <div class="order-lists__element-img">
+                <img src="./img/order/ded_moroz.jpg" alt="">
+              </div>
+            </div>
+            <div class="order-lists__element">
+              <label class="checkbox">Раскраска
+                <input class="val__input" type="checkbox" data-val="130" data-name="Раскраска  ">
+                <span class="checkbox-custom"></span>
+              </label>
+              <div class="price-block">130руб.</div>
+              <div class="order-lists__element-img">
+                <img src="./img/order/color.jpg" alt="">
+              </div>
+            </div>
+            <div class="order-lists__element">
+              <label class="checkbox">Секретный подарок (Хит)
+                <input class="val__input" type="checkbox" data-val="280" data-name="Секретный подарок (Хит) ">
+                <span class="checkbox-custom"></span>
+              </label>
+              <div class="price-block">280руб.</div>
+              <div class="order-lists__element-img">
+                <img src="./img/order/gift.jpg" alt="">
+              </div>
+            </div>
+            <div class="order-lists__element">
+              <label class="checkbox">Именная шоколадка (ХИТ)
+                <input class="val__input" type="checkbox" data-val="190" data-name="Именная шоколадка (ХИТ)  ">
+                <span class="checkbox-custom"></span>
+              </label>
+              <div class="price-block">190руб.</div>
+              <div class="order-lists__element-img">
+                <img src="./img/order/chocolate.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="order-summ">
+            <div class="order-summ__element">Сумма:
+              <span class="order-summ__element-count">590</span>
+            </div>
+            <div class="load-stripe"></div>
+            <div class="order-summ__botton">
+              <a class="btn-summ__next" href="javascript:void(0);" data-next="second__element">Вперед</a>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-content second">
+          <div class="order-lists">
+            <div class="order-lists__checks">
+              <div class="lists-checks__titel">Для кого письмо</div>
+              <div class="checks-elements">
+                <label class="checkbox-element checks-elements__pink">
+                  <input class="check-letter" type="radio" name="child" value="Девочка не умеет читать">
+                  <span class="custom-element">
+                    <svg class="icon icon-girl_cant_read ">
+                      <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#girl_cant_read"></use>
+                    </svg>
+                  </span>
+                  <span class="custom-title">Девочка не умеет читать</span>
+                </label>
+                <label class="checkbox-element checks-elements__blue">
+                  <input class="check-letter" type="radio" name="child" value="Мальчик не умеет читать">
+                  <span class="custom-element">
+                    <svg class="icon icon-boy_cant_read ">
+                      <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#boy_cant_read"></use>
+                    </svg>
+                  </span>
+                  <span class="custom-title">Мальчик не умеет читать</span>
+                </label>
+                <label class="checkbox-element checks-elements__blues">
+                  <input class="check-letter" type="radio" name="child" value="Мальчик">
+                  <span class="custom-element">
+                    <svg class="icon icon-boy ">
+                      <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#boy"></use>
+                    </svg>
+                  </span>
+                  <span class="custom-title">Мальчик</span>
+                </label>
+                <label class="checkbox-element checks-elements__red">
+                  <input class="check-letter" type="radio" name="child" value="Девочка">
+                  <span class="custom-element">
+                    <svg class="icon icon-girl ">
+                      <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#girl"></use>
+                    </svg>
+                  </span>
+                  <span class="custom-title">Девочка</span>
+                </label>
+                <label class="checkbox-element checks-elements__fiol">
+                  <input class="check-letter" type="radio" name="child" value="Мужчина">
+                  <span class="custom-element">
+                    <svg class="icon icon-man ">
+                      <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#man"></use>
+                    </svg>
+                  </span>
+                  <span class="custom-title">Мужчина</span>
+                </label>
+                <label class="checkbox-element checks-elements__maroon">
+                  <input class="check-letter" type="radio" name="child" value="Женщина">
+                  <span class="custom-element">
+                    <svg class="icon icon-woman ">
+                      <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#woman"></use>
+                    </svg>
+                  </span>
+                  <span class="custom-title">Женщина</span>
+                </label>
+                <label class="checkbox-element checks-elements__yellow">
+                  <input class="check-letter" type="radio" name="child" value="Группа людей">
+                  <span class="custom-element">
+                    <svg class="icon icon-group ">
+                      <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#group"></use>
+                    </svg>
+                  </span>
+                  <span class="custom-title">Группа людей</span>
+                </label>
+              </div>
+              <div class="lists__titel">Кого поздравляем (имя)</div>
+              <input class="order-list__name" type="text">
+              <div class="lists__titel">Примечания к письму</div>
+              <textarea class="note-letter" name="letter" placeholder="Заполнять по желанию..."></textarea>
+              <div class="lists__titel">Адрес на конверте</div>
+              <textarea class="address-envelope" name="address" placeholder="Заполнять по желанию..."></textarea>
+            </div>
+          </div>
+          <div class="order-summ">
+            <div class="order-summ__element">Сумма:
+              <span class="order-summ__element-count">590</span>
+            </div>
+            <div class="load-stripe"></div>
+            <div class="order-summ__botton">
+              <a class="btn-summ__back" href="javascript:void(0);" data-back="first__element">Назад</a>
+              <a class="btn-summ__next" href="javascript:void(0);" data-next="three__element">Вперед</a>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-content three">
+          <div class="order-lists">
+            <div class="order-lists__checks">
+              <div class="order-lists__container">
+                <div class="lists__titel">Ваше имя</div>
+                <input class="order-list__fio" type="text">
+                <div class="lists__titel">Телефон</div>
+                <input class="order-list__phone" type="text" id="phone-order">
+                <div class="lists__titel">Адрес электронной почты</div>
+                <input class="order-list__location" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="order-summ">
+            <div class="order-summ__element">Сумма:
+              <span class="order-summ__element-count">590</span>
+            </div>
+            <div class="load-stripe"></div>
+            <div class="order-summ__botton">
+              <a class="btn-summ__back" href="javascript:void(0);" data-back="second__element">Назад</a>
+              <a class="btn-summ__next" href="javascript:void(0);" data-next="fourth__element">Вперед</a>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-content fourth">
+          <div class="order-lists">
+            <div class="lists__titel">Текущий регион
+              <div class="link-container">
+                <a class="link-location" href="javascript:void(0);">Санкт-Петербург</a>
+              </div>
+              <div class="link-container">
+                <a class="link-new__region" href="javascript:void(0);">не ваш регион?</a>
+              </div>
+            </div>
+            <div class="delivery-block">
+              <label class="delivery-radio">Самовывоз - Бесплатно
+                <input class="delivery-content" type="radio" name="delivery-element" data-val="0" checked data-delivery="Самовывоз">
+                <span class="delivery-custom"></span>
+              </label>
+              <div class="delivery-block__container delivery-block__container-action">
+                <select class="addres-pickup__style" id="addres-pickup">
+                  <option>sfddsfds</option>
+                </select>
+              </div>
+            </div>
+            <div class="delivery-block">
+              <label class="delivery-radio">Доставка по городу -
+                <span class="delivery_price">230</span>
+                <input class="delivery-content delivery-content__value" type="radio" name="delivery-element" data-val="230" data-delivery="Доставка по городу">
+                <span class="delivery-custom"></span>
+              </label>
+              <div class="delivery-block__container">
+                <textarea class="city-deliv" placeholder="Адрес доставки"></textarea>
+              </div>
+            </div>
+            <div class="delivery-block">
+              <label class="delivery-radio">Доставка за город -
+                <span class="delivery_price">230 </span>
+                <span>руб.+ </span>
+                <span class="km_price">20 </span>
+                <span>руб./км</span>
+                <input class="delivery-content delivery-content__value" type="radio" name="delivery-element" data-val="230" data-delivery="Доставка за город">
+                <span class="delivery-custom"></span>
+              </label>
+              <div class="delivery-block__container">
+                <textarea class="out-city" placeholder="Адрес доставки"></textarea>
+              </div>
+            </div>
+            <div class="delivery-bottom__last">
+              <a class="btn-delivery__last" href="javascript:void(0);">Отправить</a>
+            </div>
+          </div>
+          <div class="order-summ">
+            <div class="order-summ__element">Сумма:
+              <span class="order-summ__element-count">590</span>
+            </div>
+            <div class="load-stripe"></div>
+            <div class="order-summ__botton">
+              <a class="btn-summ__back" href="javascript:void(0);" data-back="three__element">Назад</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="popup">
+    <div class="location-popup">
+      <div class="location-container">
+        <svg class="icon icon-cance close-btn">
+          <use xlink:href="/site/mail/img/svg/symbol/sprite.svg#cance"></use>
+        </svg>
+        <div class="location-container__title">Выберите регион</div>
+        <div class="location-container__cities"></div>
+      </div>
+    </div>
+  </section>
+  <!-- start footer-->
+  <section>
+    <section class="footer"></section>
+    <div class="footer-bg">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-contacts">
+            <a class="footer-phone" href="tel:+74951251069">МСК: +7(495) 125-10-69</a>
+            <a class="footer-phone" href="tel:+79119242163">СПб: +7(911) 924-21-63</a>
+            <div class="footer-cconfidentially">© f121.ru
+              <span>2012-2018</span>
+            </div>
+          </div>
+          <div class="footer-socials">
+            <div class="ics">
+              <a class="footer-social" href="">
+                <img src="./img/social/vk.png" alt="Социальная сеть">
+              </a>
+              <a class="footer-social" href="">
+                <img src="./img/social/ok.png" alt="Социальная сеть">
+              </a>
+              <a class="footer-social" href="">
+                <img src="./img/social/fb.png" alt="Социальная сеть">
+              </a>
+              <a class="footer-social" href="">
+                <img src="./img/social/inst.png" alt="Социальная сеть">
+              </a>
+              <a class="footer-social" href="">
+                <img src="./img/social/you.png" alt="Социальная сеть">
+              </a>
+            </div>
+            <div class="footer-email">info@f121.ru</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end footer-->
+  <script src="./js/scripts.min.js"></script>
+</body>
+
+</html>

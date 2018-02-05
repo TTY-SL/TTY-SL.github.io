@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ALSMalina';
+  src: url('ALSMalina.eot');
+  src: url('ALSMalina.woff2') format('woff2'),
+       url('ALSMalina.woff') format('woff'),
+       url('ALSMalina.ttf') format('truetype'),
+       url('ALSMalina.svg#ALSMalina') format('svg'),
+       url('ALSMalina.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

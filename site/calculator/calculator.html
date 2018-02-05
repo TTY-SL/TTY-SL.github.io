@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Уборка домов</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="apple-touch-icon" href="">
+    <link rel="apple-touch-icon" sizes="72x72" href="">
+    <link rel="apple-touch-icon" sizes="114x114" href="">
+
+</head>
+<body id="test">
+    <section class="on-page">
+        <!--Start header-top_bar-->
+        <div class="header-top_bar">
+            <table>
+                <tr>
+                    <td class="logo-img"><a href="./house-cleaning.html"><img src="./img/logo-calc.png" alt="Cleaning Bees"></a></td>
+                    <td class="vis-tab">
+                        <div class="table-update val-servis"></div>
+                        <div class="table-title ">Тип помещения</div>
+                    </td>
+                    <td class="vis-tab" >
+                        <div class="table-update val-type-cleaning"></div>
+                        <div class="table-title">Тип уборки</div>
+                    </td>
+                    <td class="vis-tab">
+                        <div class="table-update__second val-count-room"></div>
+                        <div class="table-title">Количество комнат</div>
+                    </td>
+                    <td class="vis-tab">
+                        <div class="table-update__second-2 val-bath-room"></div>
+                        <div class="table-title">Количество ванных комнат</div>
+                    </td>
+                    <td class="vis-tab">
+                        <div class="time val-select-ore"></div>
+                        <div class="table-update val-date-cleaning"></div>
+                        <div class="table-title">Дата уборки</div>
+                    </td>
+                    <td class="vis-tab">
+                        <div class="table-update ">
+                            <span class="val-address-work"></span>,
+                            <span class="val-number-apartments"></span></div>
+                        <div class="table-title">Адрес</div>
+                    </td>
+                    <td class="vis-tab">
+                        <div class="table-update sum-cost">3 300 руб.</div>
+                        <div class="table-title">Итоговая цена</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--End header-top_bar-->
+        <div class="container">
+            <div class="row">
+                <!--Start first-stage-->
+                <section class="first-stage ">
+                    <div class="first-stage__title">Закажите уборку сегодня</div>
+                    <div class="first-stage__sec">Тип помещения</div>
+                    <div class="type-room">
+                        <div class="type-room__list">
+                            <a class="btn-camp camp-space" data-space="Квартира"  href="javascript:void(0);">Квартира</a>
+                            <a class="btn-camp camp-space" data-space="Дом" href="javascript:void(0);">Дом</a>
+                            <a class="btn-camp camp-space" data-space="Коттедж" href="javascript:void(0);">Коттедж</a>
+                        </div>
+                    </div>
+                    <div class="first-stage__sec">Тип уборки
+                        <span class="help-question">?
+                            <span>ertretretre tret rret ert eretert sdf</span>
+                        </span>
+                    </div>
+                    <div class="type-room">
+                        <div class="type-room__list">
+                            <a class="btn-camp camp-type-cleaning" data-type-cleaning="Генеральная" href="javascript:void(0);">Генеральная</a>
+                            <a class="btn-camp camp-type-cleaning" data-type-cleaning="Ежедневная" href="javascript:void(0);">Ежедневная</a>
+                            <a class="btn-camp camp-type-cleaning" data-type-cleaning="После ремонта" href="javascript:void(0);">После ремонта</a>
+                        </div>
+                    </div>
+                    <div class="first-stage__sec">Количество комнат</div>
+                    <div class="type-room">
+                        <div class="rooms-mane__list">
+                            <a class="room-btn count-room" data-count-room="Студия" href="javascript:void(0);">Студия</a>
+                            <a class="room-btn count-room" data-count-room="1" href="javascript:void(0);">1</a>
+                            <a class="room-btn count-room" data-count-room="2" href="javascript:void(0);">2</a>
+                            <a class="room-btn count-room" data-count-room="3" href="javascript:void(0);">3</a>
+                            <a class="room-btn count-room" data-count-room="4" href="javascript:void(0);">4</a>
+                            <a class="room-btn count-room" data-count-room="5" href="javascript:void(0);">5</a>
+
+                        </div>
+                    </div>
+                    <div class="first-stage__sec">Количество ванных комнат</div>
+                    <div class="bath">
+                        <div class="rooms-mane__list">
+                            <a class="room-btn bath-room" data-bath-room="1" href="javascript:void(0);">1</a>
+                            <a class="room-btn bath-room" data-bath-room="2" href="javascript:void(0);">2</a>
+                            <a class="room-btn bath-room" data-bath-room="3" href="javascript:void(0);">3</a>
+                            <a class="room-btn bath-room" data-bath-room="4" href="javascript:void(0);">4</a>
+                            <a class="room-btn bath-room" data-bath-room="5" href="javascript:void(0);">5</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="bath">
+                        <div class="click-input">
+                            <div class="first-input">Количество окон </div>
+                            <div class="input-container">
+                                <a href="javascript:void(0);" class="first-sum__min">-</a>
+                                <input type="text" class="first-form input-window" value="0" disabled>
+                                <a href="javascript:void(0);" class="first-sum__plus">+</a>
+                            </div>
+                        </div>
+                        <div class="click-input">
+                            <div class="first-input">Количество балконов</div>
+                            <div class="input-container">
+                                <a href="javascript:void(0);" class="first-sum__min-after">-</a>
+                                <input type="text" class="first-form input-balkony" value="0" disabled>
+                                <a href="javascript:void(0);" class="first-sum__plus-after">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bath">
+                        <div>
+                            <div class="first-input">Помыть окна внутри и снаружи</div>
+                            <div class="check-content">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="wash-window" id="check1">
+                                    <label for="check1" class="checkbox-custom checkbox-window"></label>
+                                </label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="first-input">Помыть балкон внутри и снаружи</div>
+                            <div class="check-content">
+                                <label class="checkbox">
+                                    <input type="checkbox" class="wash-balcony" id="check2">
+                                    <label for="check2" class="checkbox-custom checkbox-part"></label>
+                                </label>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type-room sec">
+                        <div class="message-clik"></div>
+                        <a href="javascript:void(0);" class="btn1 first-step">Выберите дату и время</a>
+                    </div>
+                </section>
+                <!--End first-stage-->
+                <!--Start date-for-order-->
+                <section class="date-for-order vis">
+                    <div class="first-stage__title">Выберите дату и время</div>
+                    <div class="date-for-order__container">
+                        <div class="calendar">
+                            <div id="dncalendar-container">
+                            </div>
+                        </div>
+                        <div class="ore-container">
+                            <div class="scrollbar" id="style-1">
+                                <div class="force-overflow">
+                                    <a class="select-ore" data-select-ore="8:00 ">8:00 </a>
+                                    <a class="select-ore" data-select-ore="8:30 ">8:30 </a>
+                                    <a class="select-ore" data-select-ore="9:00 ">9:00 </a>
+                                    <a class="select-ore" data-select-ore="9:30 ">9:30 </a>
+                                    <a class="select-ore" data-select-ore="10:00">10:00</a>
+                                    <a class="select-ore" data-select-ore="10:30">10:30</a>
+                                    <a class="select-ore" data-select-ore="11:00">11:00</a>
+                                    <a class="select-ore" data-select-ore="11:30">11:30</a>
+                                    <a class="select-ore" data-select-ore="12:00">12:00</a>
+                                    <a class="select-ore" data-select-ore="12:30">12:30</a>
+                                    <a class="select-ore" data-select-ore="13:00">13:00</a>
+                                    <a class="select-ore" data-select-ore="14:30">14:30</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="type-room sec">
+                        <div class="message-clik"></div>
+                        <a href="javascript:void(0);" class="btn1 second-step day-ore">Укажите адрес</a>
+                    </div>
+                </section>
+                <!--End date-for-order-->
+                <!--Start address-client-->
+                <section class="address-client vis">
+                    <div class="first-stage__title">Укажите адрес</div>
+                    <div class="bath">
+                        <div>
+                            <div class="address-cont">Ваше имя</div>
+                            <input type="text" class="address__input fio-val">
+                        </div>
+                        <div>
+                            <div class="address-cont">Номер телефона</div>
+                            <div class="auto-pref">
+                                <input id="phone-number" type="text" class="address__input telephone-val" placeholder="(999) 999-99-99">
+                                <div class="auto-pref__phone">+7</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bath">
+                        <div>
+                            <div class="address-cont">Адрес</div>
+                            <input type="text" class="address-client__input address-val">
+                        </div>
+                        <div>
+                            <div class="address-cont">Номер квартиры</div>
+                            <input  class="address-number__input number-val">
+                        </div>
+                    </div>
+                    <div class="first-stage__sec">Как мы попадем к Вам домой?</div>
+                    <div class="bath">
+                        <div class="type-room__list">
+
+                            <a class="btn-camp enter-object" data-enter-object="Кто-то будет внутри"  href="javascript:void(0);">Кто-то будет внутри</a>
+
+                            <a class="btn-camp enter-object" data-enter-object="Вы передадите нам ключи"  href="javascript:void(0);">Вы передадите нам ключи</a>
+
+                            <a class="btn-camp enter-object" data-enter-object="Другой вариант"  href="javascript:void(0);">Другой вариант</a>
+
+                        </div>
+                    </div>
+                    <div class="first-stage__sec">Дополнительные услуги</div>
+                    <div class="bath">
+                        <div class="type-room__list-cont">
+                            <div class="container-servis" data-servis-title="Помоем внутри холодильника">
+                                <div class="servis-title">
+                                    Помоем внутри холодильника
+                                </div>
+                                <div class="servis-img">
+                                    <img src="./img/servis/refrigerator.png" alt="">
+                                </div>
+                            </div>
+                            <div class="container-servis" data-servis-title="Помоем внутри духовки">
+                                <div class="servis-title">
+                                    Помоем внутри  духовки
+                                </div>
+                                <div class="servis-img">
+                                    <img src="./img/servis/oven.png" alt="">
+                                </div>
+                            </div>
+                            <div class="container-servis" data-servis-title="Помоем внутри кухонных шкафов">
+                                <div class="servis-title">
+                                    Помоем внутри  кухонных шкафов
+                                </div>
+                                <div class="servis-img">
+                                    <img src="./img/servis/window.png" alt="">
+                                </div>
+                            </div>
+                            <div class="container-servis" data-servis-title="Погладим вещи">
+                                <div class="servis-title">
+                                    Погладим  вещи
+                                </div>
+                                <div class="servis-img">
+                                </div>
+                            </div>
+                            <div class="container-servis" data-servis-title="Помоем окна с 1-ой стороны">
+                                <div class="servis-title">
+                                    Помоем окна с 1-ой стороны
+                                </div>
+                                <div class="servis-img">
+                                    <img src="./img/servis/refrigerator.png" alt="">
+                                </div>
+                            </div>
+                            <div class="container-servis" data-servis-title="Помоем окна с 2-ух сторон">
+                                <div class="servis-title">
+                                    Помоем окна  с 2-ух сторон
+                                </div>
+                                <div class="servis-img">
+                                    <img src="./img/servis/oven.png" alt="">
+                                </div>
+                            </div>
+                            <div class="container-servis"  data-servis-title="Уберем  на балконе">
+                                <div class="servis-title">
+                                    Уберем  на балконе
+                                </div>
+                                <div class="servis-img">
+                                </div>
+                            </div>
+                            <div class="container-servis" data-servis-title="Помоем посуду">
+                                <div class="servis-title">
+                                    Помоем  посуду
+                                </div>
+                                <div class="servis-img">
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="first-stage__sec">У вас есть животные?</div>
+                    <div class="bath">
+                        <div class="type-room__list">
+                            <a class="btn-camp animale-room" data-animale-room="Да" href="javascript:void(0);">Да</a>
+                            <a class="btn-camp animale-room" data-animale-room="Нет" href="javascript:void(0);">Нет</a>
+                        </div>
+                    </div>
+                    <div class="type-room sec">
+                        <div class="message-clik"></div>
+                        <a href="javascript:void(0);" class="btn1 third-step day-ore">Оставить заявку на уборку</a>
+                    </div>
+                </section>
+                <!--End address-client-->
+                <!--Start final-order-->
+                <section class="final-order vis">
+                    <div class="first-stage__title">Проверьте свой заказ</div>
+                    <div class="final-order__container">
+                        <div class="order">
+                            <input class="order__imput order-space" type="text">
+                            <input class="order__imput order-type-cleaning" type="text">
+                            <input class="order__imput order-room" type="text">
+                            <input class="order__imput order-day-ore" type="text">
+                            <input class="order__imput order-address" type="text">
+                            <div class="order__fin">Итого</div>
+                            <div class="order__cost"></div>
+                        </div>
+                    </div>
+                    <div class="type-room sec">
+                        <a href="javascript:void(0);" class="btn1 fourth-step day-ore">Оставить заявку на уборку</a>
+                    </div>
+                </section>
+                <!--End final-order-->
+                <div class="pop-up__message">
+                    <div class="container-message">
+                        <div class="thank">Спасибо!</div>
+                        <span>Ваша заявка успешно отправлена!<br> Мы свяжемся с Вами в ближайшее время.</span>
+                        <a href="./index.html" class="btn1"> Закрыть</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <link rel="stylesheet" href="css/main.min.css">
+    <script src="js/scripts.min.js"></script>
+</body>
+</html>
